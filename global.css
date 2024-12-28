@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: #040405;
+    font-family: "Inter", serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 225px;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+header {
+    display: flex;
+    padding: 16px 200px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+}
+
+.header-content {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    height: 48px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header-logo {
+    width: 116px;
+    height: 24.5px;
+}
+
+.navigation {
+    width: 250px;
+    height: 24px;
+}
+
+.list-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.item {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header-button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #00FF1A;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 112px;
+}
+
+.WelcomeConvex {
+    max-width: 1040px;
+    width: 100%;
+    height: 358px;
+    display: inline-flex;
+    gap: 151px;
+}
+
+.welcome-title {
+    display: flex;
+    width: 564px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.vector {
+    width: 255px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.vector-title {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.welcome-heading {
+    color: #FFF;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.welcome-span {
+    width: 546px;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.welcome-buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.welcome-btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.fill {
+    width: 132px;
+    height: 48px;
+    border-radius: 24px;
+    background: #00FF1A;
+    color: #000;
+    border: none;
+}
+
+.unfill {
+    width: 150px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.welcom-img {
+    width: 325px;
+    height: 330px;
+
+}
+
+.banner-section {
+    max-width: 1040px;
+    width: 100%;
+    height: 100px;
+}
+
+.baner-content {
+    width: 815px;
+    height: 100px;
+    background-color: yellowgreen;
+    display: flex;
+    gap: 40px;
+}
+
+.baner-content .box {
+    width: 196px;
+    height: 76px;
+    background-color: red;
+}
+
+
+.LiquidityProvider {
+    max-width: 1040px;
+    width: 100%;
+    height: 484px;
+    background-color: yellowgreen;
+    display: flex;
+    gap: 22px;
+}
+
+.ProvideImage {
+    width: 451px;
+    height: 475px;
+    flex-shrink: 0;
+    background-color: red;
+}
+
+.ProvideTitle {
+    width: 567px;
+    height: 484px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.OurProcess {
+    max-width: 1040px;
+    width: 100%;
+    height: 357px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.process-title {
+    width: 197px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: red;
+}
+
+.process-heading {
+    width: 565px;
+    height: 87px;
+    background-color: red;
+}
+
+.process-banner {
+    max-width: 1040px;
+    width: 100%;
+    height: 182px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    align-self: stretch;
+}
+
+.banner-top {
+    width: 863px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 213px;
+}
+
+.banner-icon {
+    width: 56px;
+    height: 56px;
+    background-color: greenyellow;
+}
+
+.banner-bottom {
+    width: 1040px;
+    height: 89px;
+    display: flex;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.bottom-box {
+    width: 249px;
+    height: 89px;
+    background-color: greenyellow;
+}
+
+.line {
+    width: 0px;
+    height: 86px;
+    stroke-width: 1px;
+    stroke: #0000ff;
+}
+
+.CrvStakers {
+    max-width: 1040px;
+    width: 100%;
+    height: 643px;
+    background-color: yellowgreen;
+    display: flex;
+    gap: 22px;
+}
+
+.crvStakers-title {
+    width: 503px;
+    height: 643px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    background-color: red;
+}
+
+.crvStakers-image {
+    width: 509px;
+    height: 481px;
+    background-color: red;
+}
+
+
+.Testimonials {
+    max-width: 1040px;
+    width: 100%;
+    height: 729px;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.testimonial-left {
+    width: 629px;
+    height: 720px;
+    background-color: red;
+}
+
+.testimonial-right {
+    width: 392px;
+    display: flex;
+    padding: 24px 32px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background-color: red;
+}
+
+.testimonial-content {
+    width: 328px;
+    height: 539px;
+    background-color: blue;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 224px;
+    background-color: yellow;
+}
