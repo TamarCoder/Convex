@@ -666,6 +666,9 @@ main {
 .author-information {
     width: 440px;
     height: 328px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 
 }
 
@@ -717,7 +720,9 @@ main {
 .author-heading {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 12px;
+    align-self: stretch;
 }
 
 .author-heading h4 {
