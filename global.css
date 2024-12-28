@@ -492,54 +492,374 @@ main {
     font-weight: 500;
     line-height: 24px;
 }
+
 /* მეოთხე სექცია */
-
-
-
-
+/* მეხუთე  სექცია */
 
 .CrvStakers {
     max-width: 1040px;
     width: 100%;
     height: 643px;
-    background-color: yellowgreen;
     display: flex;
     gap: 22px;
 }
 
 .crvStakers-title {
-    width: 503px;
+    width: 509px;
     height: 643px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
     flex: 1 0 0;
-    background-color: red;
 }
+
+.crvStakers-heading {
+    width: 509px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.crvStakers-heading h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.crvStakers-heading span {
+    color: #7A7A7A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.crvStakers-container {
+    width: 409px;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.crvStakers-box-active {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-left: 2px solid #00FF1A;
+}
+
+.crvStakers-box-active h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.crvStakers-box-active span {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.crvStakers-box-grey {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-left: 2px solid #4A4A4E;
+}
+
+.crvStakers-box-grey h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.crvStakers-box-grey span {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
 
 .crvStakers-image {
     width: 509px;
     height: 481px;
-    background-color: red;
 }
 
+/* მეხუთე  სექცია */
+
+
+/* მეექვსე  სექცია */
 
 .Testimonials {
     max-width: 1040px;
     width: 100%;
     height: 729px;
-    background-color: yellowgreen;
     display: flex;
     align-items: center;
     gap: 24px;
+    background-color: rgb(161, 81, 81);
 }
 
-.testimonial-left {
-    width: 629px;
-    height: 720px;
-    background-color: red;
+
+.testimonial-container {
+    width: 624px;
+    height: 729px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
 }
+
+.test-top {
+    width: 624px;
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.test-content {
+    width: 624px;
+    height: 416px;
+    display: flex;
+    padding: 24px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #1C1C20;
+}
+
+.content-top {
+    width: 560px;
+    height: 328px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+
+}
+
+.author-information {
+    width: 440px;
+    height: 328px;
+
+}
+
+.author-name {
+    width: 440px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.line {
+    width: 12px;
+    height: 1px;
+    background-color: #fff;
+
+}
+
+.author-name .name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.author-name .name h4 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.author-name .name p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.author-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.author-heading h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.author-heading p {
+    color: #B7B7B7;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.green-span {
+    color: #00FF1A;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.dot-2 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.content-bottom {
+    width: 98px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.left {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #F8F8F8;
+}
+
+.right {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #00FF1A;
+}
+
+.test-botom {
+    width: 624px;
+    height: 353px;
+
+}
+
+.test-content-bottom {
+    width: 624px;
+    height: 217px;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #1C1C20;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.bottom-content h4 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.bottom-content span {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.tel-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #00FF1A;
+}
+.tele {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
 
 .testimonial-right {
     width: 392px;
@@ -548,14 +868,18 @@ main {
     align-items: center;
     gap: 10px;
     align-self: stretch;
-    background-color: red;
+    background-color: rgb(153, 19, 19);
+
 }
 
-.testimonial-content {
-    width: 328px;
-    height: 539px;
-    background-color: blue;
-}
+
+
+
+
+
+
+
+/* მეექვსე  სექცია */
 
 /* მეინი */
 
