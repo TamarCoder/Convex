@@ -620,7 +620,6 @@ main {
     display: flex;
     align-items: center;
     gap: 24px;
-    background-color: rgb(161, 81, 81);
 }
 
 
@@ -789,6 +788,9 @@ main {
 .test-botom {
     width: 624px;
     height: 353px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 
 }
 
@@ -798,8 +800,8 @@ main {
     display: flex;
     padding: 32px;
     flex-direction: column;
-    align-items: flex-start;
-    align-self: stretch;
+    align-items: center;
+ 
     background: #1C1C20;
 }
 
@@ -846,6 +848,7 @@ main {
     border-radius: 50px;
     background: #00FF1A;
 }
+
 .tele {
     color: #FFF;
     font-size: 20px;
@@ -855,12 +858,6 @@ main {
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
 .testimonial-right {
     width: 392px;
     display: flex;
@@ -868,10 +865,80 @@ main {
     align-items: center;
     gap: 10px;
     align-self: stretch;
-    background-color: rgb(153, 19, 19);
+    background: #1C1C20;
 
 }
 
+.form-container {
+    display: flex;
+    width: 328px;
+    height: 539px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.form-heading {
+    width: 328px;
+    height: 24px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.form {
+    width: 328px;
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.form .input {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background: none;
+}
+
+.textarea {
+    display: flex;
+    width: 328px;
+    height: 155px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background: none;
+}
+
+.form-btn {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border: none;
+    border-radius: 4px;
+    background: #00FF1A;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
 
 
 
