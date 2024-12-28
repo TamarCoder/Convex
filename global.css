@@ -19,17 +19,25 @@ body {
     font-family: "Inter", serif;
 }
 
+/* ყველაზე მთავარი დივი */
 .main-container {
     display: flex;
     flex-direction: column;
     gap: 225px;
 }
 
+/* ყველაზე მთავარი დივი */
+/* ჰედერის და მეინის ვრაპერი */
+
 .container-wrapper {
     display: flex;
     flex-direction: column;
     gap: 112px;
 }
+
+/* ჰედერის და მეინის ვრაპერი */
+
+/* ჰედერი */
 
 header {
     display: flex;
@@ -90,6 +98,8 @@ header {
     line-height: 24px;
 }
 
+/* ჰედერი */
+/* მეინი */
 main {
     width: 100%;
     display: flex;
@@ -98,6 +108,7 @@ main {
     gap: 112px;
 }
 
+/* პირველი სექცია */
 .WelcomeConvex {
     max-width: 1040px;
     width: 100%;
@@ -185,13 +196,14 @@ main {
     color: rgb(255, 255, 255);
 }
 
-
-
-.welcom-img {
+.welcome-img {
     width: 325px;
     height: 330px;
 
 }
+
+/* პირველი სექცია */
+/* მეორე სექცია */
 
 .banner-section {
     max-width: 1040px;
@@ -202,16 +214,70 @@ main {
 .baner-content {
     width: 815px;
     height: 100px;
-    background-color: yellowgreen;
-    display: flex;
+    border-top: 1px solid #00FF1A;
+    display: inline-flex;
+    padding-top: 24px;
+    align-items: center;
     gap: 40px;
+    
 }
 
-.baner-content .box {
-    width: 196px;
+.box1 {
+    width: 158px;
     height: 76px;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
+.box2 {
+    width: 161px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.box3 {
+    width: 195px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.box4 {
+    width: 181px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+
+.baner-title {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.banner-span {
+  width: 195px;
+    display: inline-block;
+    color: #7A7A7A;
+ 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+   
+    text-transform: uppercase;
+}
+
+/* მეორე სექცია */
 
 
 .LiquidityProvider {
@@ -374,6 +440,8 @@ main {
     height: 539px;
     background-color: blue;
 }
+
+/* მეინი */
 
 
 
